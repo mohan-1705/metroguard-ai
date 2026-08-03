@@ -32,7 +32,7 @@ Human Approval
 Maintenance Work Order
     ↓
 Audit & Monitoring
-✨ Key Features
+## ✨ Key Features
 🚇 Simulated metro sensor monitoring
 📊 Real-time monitoring dashboard
 🚨 Anomaly and incident detection
@@ -73,7 +73,7 @@ Index Path   : rag_index
 
 RAG provides relevant maintenance knowledge to the LLM before generating its analysis.
 
-🧠 Local LLM
+## 🧠 Local LLM
 
 The project runs the LLM locally using Ollama, so no external AI API key is required.
 
@@ -86,7 +86,7 @@ Local inference
 No external AI API dependency
 Better control over application data
 Easy development and testing
-🏗️ Architecture
+## 🏗️ Architecture
         Simulated Metro Sensors
                  ↓
           FastAPI Backend
@@ -108,16 +108,16 @@ Easy development and testing
         Maintenance Workflow
                  ↓
            SQLite Database
-🛠️ Tech Stack
-Category	Technologies
-Frontend	React, Vite, Tailwind CSS, Axios, Recharts
-Backend	Python, FastAPI, Pydantic, Uvicorn, SQLAlchemy
-Database	SQLite
-AI/LLM	Ollama, Llama 3, Prompt Engineering
-RAG	FAISS, Vector Embeddings, Similarity Search
-Real-Time	WebSockets
-Development	Git, GitHub, VS Code
-⚙️ Configuration
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite, Tailwind CSS, Axios, Recharts
+- **Backend:** Python, FastAPI, Pydantic, Uvicorn, SQLAlchemy
+- **Database:** SQLite
+- **AI / LLM:** Ollama, Llama 3, Prompt Engineering
+- **RAG:** FAISS, Vector Embeddings, Similarity Search
+- **Real-Time:** WebSockets
+- **Development:** Git, GitHub, VS Code
+## ⚙️ Configuration
 
 MetroGuard AI uses local services and does not require external API keys.
 
@@ -134,7 +134,7 @@ VITE_API_BASE_URL=http://localhost:8000
 WEBSOCKET_URL=ws://localhost:8000/ws/sensors
 FRONTEND_ORIGIN=http://localhost:5173
 PORT=8000
-🚨 Anomaly Detection
+## 🚨 Anomaly Detection
 
 The system processes simulated metro telemetry and uses deterministic thresholds to identify abnormal conditions.
 
@@ -156,7 +156,7 @@ Create Incident
 
 Deterministic checks are performed before AI analysis so that the LLM is not solely responsible for numerical anomaly detection.
 
-👨‍💼 Human-in-the-Loop
+## 👨‍💼 Human-in-the-Loop
 
 High-severity incidents follow a human-supervised workflow:
 
@@ -172,7 +172,7 @@ Work Order Audit
 
 AI recommendations do not directly control railway infrastructure.
 
-📡 Real-Time Monitoring
+## 📡 Real-Time Monitoring
 
 WebSockets provide real-time communication between the backend and frontend.
 
@@ -185,7 +185,7 @@ Incident notifications
 Incident status
 Dashboard information
 Maintenance workflow updates
-🗄️ Database
+## 🗄️ Database
 
 MetroGuard AI uses SQLite for lightweight local development.
 
@@ -193,7 +193,7 @@ metroguard.db
 
 The architecture can be migrated to PostgreSQL for larger production deployments.
 
-🚀 Getting Started
+## 🚀 Getting Started
 Prerequisites
 Python 3.10+
 Node.js & npm
@@ -220,7 +220,7 @@ npm run dev
 Frontend:
 
 http://localhost:5173
-🔄 End-to-End Workflow
+## 🔄 End-to-End Workflow
 Sensor Event
      ↓
 Anomaly Detection
@@ -240,7 +240,7 @@ Maintenance Work Order
 Technician Assignment
      ↓
 Audit Log
-🎯 Use Cases
+## 🎯 Use Cases
 Metro maintenance monitoring
 Operational incident management
 AI-assisted maintenance analysis
@@ -249,7 +249,7 @@ Maintenance knowledge retrieval
 Intelligent incident triage
 Human-supervised AI workflows
 Real-time transportation monitoring
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 Predictive maintenance models
 Real metro/IoT data integration
 Advanced time-series anomaly detection
@@ -261,7 +261,7 @@ Cloud deployment
 Advanced notifications
 Historical analytics
 AI model evaluation and observability
-🛡️ Safety & Limitations
+## 🛡️ Safety & Limitations
 
 MetroGuard AI is a simulation and research/portfolio project.
 
@@ -269,7 +269,7 @@ It does not directly operate trains, signals, braking systems, track switching, 
 
 All sensor data and maintenance workflows are simulated, and AI recommendations should be reviewed by qualified humans before any real-world operational decision.
 
-📈 Project Highlights
+## 📈 Project Highlights
 
 MetroGuard AI demonstrates the integration of:
 
@@ -287,13 +287,18 @@ Human-in-the-Loop Automation
 
 The project goes beyond a standalone chatbot by integrating an LLM into a structured operational workflow with retrieval, deterministic checks, human approval, and auditability.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Chodabathula Mohana Rangaji
+**Chodabathula Mohana Rangaji**
 
 Computer Science Engineering Graduate
 
-Interests: Generative AI • AI Agents • LLMs • RAG • Full-Stack Development • Python • Machine Learning • Data Analytics
+**Interests:** Generative AI • AI Agents • LLMs • RAG • Full-Stack Development • Python • Machine Learning • Data Analytics
 
-GitHub:
-https://github.com/mohan-1705
+GitHub: [MetroGuard AI](https://github.com/mohan-1705/metroguard-ai/tree/main)
+
+---
+
+## 📄 License
+
+This project is intended for educational, portfolio, research, and demonstration purposes.
