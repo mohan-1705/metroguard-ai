@@ -997,7 +997,7 @@ Computer Science Engineering
 AI / GenAI Developer | Full Stack Developer
 
 GitHub:
-https://github.com/mohan-1705
+https://github.com/mohan-1705/metroguard-ai
 
 ---
 
