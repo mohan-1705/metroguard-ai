@@ -810,28 +810,7 @@ The repository provides:
 backend/.env.example
 ```
 
-Current configuration includes:
-
-```env
-DATABASE_URL=sqlite:///metroguard.db
-
-OLLAMA_BASE_URL=http://localhost:11434
-OLLAMA_MODEL=llama3
-
-FAISS_INDEX_PATH=rag_index
-TOP_K=3
-CHUNK_SIZE=500
-
-VITE_API_BASE_URL=http://localhost:8000
-WEBSOCKET_URL=ws://localhost:8000/ws/sensors
-
-FRONTEND_ORIGIN=http://localhost:5173
-PORT=8000
-```
-
 The application is designed to use SQLite locally and can use PostgreSQL when configured accordingly.
-
-> Never commit real secrets or private environment variables to GitHub.
 
 ---
 
