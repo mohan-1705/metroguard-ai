@@ -1,0 +1,20 @@
+SOP: AXLE AND JOURNAL BEARING HOT-BOX DETECTION (DEMONSTRATION ONLY)
+Document ID: SOP-AXLE-04
+Version: 5.0
+Last Updated: 2026-05-10
+Status: INDEXED
+
+1.0 INTRODUCTION
+Journal bearings carry the simulated vehicle weight. Lubricant loss or structural wear causes rapid heat generation ("Hot-Box" condition). Axle temperatures above 100°C constitute a severe risk of wheel lock.
+
+2.0 METRIC CRITERIA
+- Target Temperature: <= 80°C
+- High Warning Level: 81°C - 100°C
+- Critical Alert Level: > 100°C
+
+3.0 EMERGENCY ACTIONS
+If axle bearing temperature exceeds 100°C:
+- Route the train to the nearest maintenance bay or station pocket track.
+- Apply thermal imaging scanner to verify actual journal temperature.
+- Top up journal lubricant, check bearing cage alignment, or schedule axle-set replacement.
+- Require formal sign-off from maintenance engineer before returning unit to simulated operations.

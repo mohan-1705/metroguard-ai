@@ -1,0 +1,19 @@
+SOP: TRACK TEMPERATURE EXTREMES AND INSPECTION PROCEDURE (DEMONSTRATION ONLY)
+Document ID: SOP-TRACK-01
+Version: 3.2
+Last Updated: 2026-01-15
+Status: INDEXED
+
+1.0 BACKGROUND
+Rail track temperatures exceeding 65°C can introduce buckle risk, thermal expansion stress, and rail deformation in standard line structures. This procedure outlines the actions required upon detecting anomalous track temperatures.
+
+2.0 MONITORING METRICS
+- Standard Operating Threshold: <= 65°C (Simulated Demo Limit)
+- Action Limit (High Priority): > 65°C
+- Critical Limit (Immediate Inspection): > 70°C
+
+3.0 CORRECTIVE ACTION PROTOCOL
+When track temperature sensors detect readings above 65°C, simulated maintenance controllers must perform the following:
+- Verify sensor health and visual alignment.
+- Schedule a track safety patrol to inspect the affected track segment for signs of alignment shift or structural wear.
+- Reduce maximum simulated train speeds through the sector to 30 km/h until thermal levels normalize or structural checks are complete.

@@ -1,0 +1,17 @@
+SOP: INCIDENT COORDINATION AND AI DECISION COMPLIANCE (DEMONSTRATION ONLY)
+Document ID: SOP-RESPONSE-05
+Version: 1.8
+Last Updated: 2026-06-20
+Status: INDEXED
+
+1.0 INCIDENT SEVERITY LEVEL CLASSIFICATIONS
+- NORMAL: No deviation. Log telemetry.
+- WARNING: Minor deviation. Schedule next-shift inspect.
+- HIGH: Significant deviation. Requires human review within 15 minutes.
+- CRITICAL: Extreme deviation. Immediate dashboard alerts, RAG evidence retrieval, and human supervisor approval.
+
+2.0 SAFETY WORKFLOW AUTOMATION
+For HIGH and CRITICAL severity classifications:
+- No automated actions are allowed without human supervisor approval.
+- Once approved, the system generates a Maintenance Work Order, assigns an available technician, and sends a notification.
+- Audit trail logging is triggered automatically at each step.

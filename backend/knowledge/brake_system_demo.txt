@@ -1,0 +1,20 @@
+SOP: BRAKE CALIPER TEMPERATURE EXCEEDANCE (DEMONSTRATION ONLY)
+Document ID: SOP-BRAKE-03
+Version: 2.5
+Last Updated: 2026-03-01
+Status: INDEXED
+
+1.0 DESCRIPTION
+High brake caliper temperatures arise from continuous brake application, hydraulic valve stickiness, or mechanical caliper drag. Exceeding 120°C introduces brake fade risk.
+
+2.0 TELEMETRY LIMITS
+- Normal range: <= 95°C
+- High limit: 96°C - 120°C
+- Critical limit: > 120°C
+
+3.0 INTERVENTION MANUAL
+Upon notification of a critical brake temperature anomaly (> 120°C):
+- Alert the simulated driver to monitor braking performance.
+- Initiate automated alert to dispatch a maintenance crew to perform a caliper release check.
+- Verify brake fluid levels, inspect caliper seals, and check for pad friction wear.
+- Maintain speed restriction on the train until temperature falls below 90°C.

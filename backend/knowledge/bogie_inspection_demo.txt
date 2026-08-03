@@ -1,0 +1,17 @@
+SOP: BOGIE VIBRATION AND SUSPENSION SYSTEMS (DEMONSTRATION ONLY)
+Document ID: SOP-BOGIE-02
+Version: 4.1
+Last Updated: 2025-11-20
+Status: INDEXED
+
+1.0 TECHNICAL METRICS
+Simulated train vibration is logged in mm/s (root-mean-square). Elevated vibration indicates bogie misalignment, bearing fatigue, or suspension damping degradation.
+- Normal vibration: < 4.0 mm/s
+- High vibration: 4.0 - 7.0 mm/s (Requires schedule check within 48 hours)
+- Critical vibration: > 7.0 mm/s (Requires immediate trackside bogie inspection)
+
+2.0 ACTION STEPS FOR CRITICAL VIBRATION (> 7.0 mm/s)
+- Identify train ID and bogie position.
+- Dispatch technician to the next scheduled station (e.g. Ameerpet, Miyapur) for immediate safety audit.
+- Inspect suspension mounting bolts, check air springs for leaks, and verify bearing integrity.
+- If physical inspection reveals mechanical wear, remove train from simulated service immediately.
